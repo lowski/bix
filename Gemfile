@@ -18,3 +18,8 @@ gem "rake"
 group :development do
   gem "rubocop"
 end
+
+group :test do
+  gem "database_cleaner-sequel"
+  gem "rspec"
+end
